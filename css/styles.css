@@ -1,18 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .container {
-  height: 100vh;
-  width: 100vw;
-  max-height: 800px;
-  max-width: 1280px;
-  min-height: 600px;
-  min-width: 1000px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 320px) {
+  .container {
+    height: 100vh;
+    width: 100vw;
+    max-height: none;
+    max-width: none;
+    min-height: 300px;
+    min-width: 250px;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .container {
+    min-height: 400px;
+    min-width: 320px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    min-height: 600px;
+    min-width: 480px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    min-height: 800px;
+    min-width: 640px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-height: 800px;
+    max-width: 1024px;
+    min-height: 800px;
+    min-width: 1024px;
+  }
+}
 
 // get code to view 3d images ?
 
@@ -30,7 +64,7 @@
 }
 
 .card {
-  height: 379px;
+  height: 250px;
   width: 300px;
   background: #808080;
   border-radius: 10px;
@@ -73,7 +107,7 @@
 .card1:hover {
   background: url(../images/WhatsApp\ Image\ 2023-04-28\ at\ 12.52.09.jpeg)
     center center no-repeat;
-  background-size: 700px;
+  background-size: 600px;
 }
 
 .card1:hover h2 {
@@ -84,7 +118,25 @@
   opacity: 1;
 }
 
+.card2 {
+  background: url(../images/WhatsApp\ Image\ 2023-04-28\ at\ 12.53.31.jpeg)
+    center center no-repeat;
+  background-size: 300px;
+}
 
+.card2:hover {
+  background: url(../images/WhatsApp\ Image\ 2023-04-28\ at\ 12.53.31.jpeg)
+    right top no-repeat ;
+  background-size: 800px;
+  }
+
+.card2:hover h2 {
+  opacity: 1;
+}
+
+.card2:hover .fab {
+  opacity: 1;
+}
 
 h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
