@@ -1,56 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .container {
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 0 auto;
+  max-width: 480px;
+  display: grid;
+  
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 481px) {
   .container {
-    height: 100vh;
-    width: 100vw;
-    max-height: none;
+    height: auto;
+    width: auto;
     max-width: none;
-    min-height: 300px;
-    min-width: 250px;
-  }
-}
-
-@media only screen and (min-width: 480px) {
-  .container {
-    min-height: 400px;
-    min-width: 320px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .container {
-    min-height: 600px;
-    min-width: 480px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .container {
-    min-height: 800px;
-    min-width: 640px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-height: 800px;
-    max-width: 1024px;
-    min-height: 800px;
-    min-width: 1024px;
   }
 }
 
 // get code to view 3d images ?
 
-.border {
+.border .map{
   height: 369px;
   width: 290px;
   background: transparent;
@@ -76,12 +48,15 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  
 }
 
 .card0 {
   background: url(../images/WhatsApp\ Image\ 2023-04-28\ at\ 13.18.54.jpeg)
     center center no-repeat;
   background-size: 300px;
+  margin: 20px;
+   
 }
 
 .card0:hover {
@@ -101,7 +76,9 @@
 .card1 {
   background: url(../images/WhatsApp\ Image\ 2023-04-28\ at\ 12.52.09.jpeg)
     right center no-repeat;
-  background-size: 500px;
+  background-size: 400px;
+  margin: 20px;
+
 }
 
 .card1:hover {
@@ -163,3 +140,8 @@ h2 {
   align-items: center;
   justify-content: space-around;
 }
+
+.map {
+  align-items: center
+  text-align: center;
+  border-radius: 10px;}

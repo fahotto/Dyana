@@ -35,7 +35,7 @@
    <div class="container ">
     <div class="card card0">
         <div class="border">
-            <h2>Cuando??</h2>
+            <h2>Cuando?? <br><br> Jueves 4 de mayo <br> 16 a 18 hs</h2>
             <div class="icons">
                 <a href="google.com"> <i class="fab fa-codepen" aria-hidden="true"></i> </a>
             </div>
@@ -43,51 +43,20 @@
     </div>
     <div class="card card1">
         <div class="border">
-            <h2>Donde??</h2>
-            <div class="icons">
-                <a href="google.com"> <i class="fab fa-codepen" 
-                </div>
+            <h2>Donde??  <br> <br> A media cuadra de la estación Muñiz sobre el corredor donde hay banderines en la entrada!</h2>
+            
 
         </div>
     </div>
     
 </div>
+<br> <br>
+<p align="center" class="map"> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3285.9685614314535!2d-58.703230384771636!3d-34.55435138047244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDMzJzE1LjciUyA1OMKwNDInMDMuOCJX!5e0!3m2!1ses!2sar!4v1682796530809!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe> 
+</p>
+
 </body>
-<script>
-var target_date = new Date().getTime() + (1000*3600*48); // set the countdown date
-var days, hours, minutes, seconds; // variables for time units
 
-var countdown = document.getElementById("tiles"); // get tag element
-
-getCountdown();
-
-setInterval(function () { getCountdown(); }, 1000);
-
-function getCountdown(){
-
-	// find the amount of "seconds" between now and target
-	var current_date = new Date().getTime();
-	var seconds_left = (target_date - current_date) / 1000;
-
-	days = pad( parseInt(seconds_left / 86400) );
-	seconds_left = seconds_left % 86400;
-		 
-	hours = pad( parseInt(seconds_left / 3600) );
-	seconds_left = seconds_left % 3600;
-		  
-	minutes = pad( parseInt(seconds_left / 60) );
-	seconds = pad( parseInt( seconds_left % 60 ) );
-
-	// format countdown string + set tag value
-	countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>"; 
-}
-
-function pad(n) {
-	return (n < 10 ? '0' : '') + n;
-}
-
-
-</script>
 </html>
 
 // make a carrousel with images
