@@ -120,3 +120,22 @@ a {
  margin-left: 30px; 
 }
 
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  
+}
+
+.asis {
+  padding-bottom: 30px;
+}
