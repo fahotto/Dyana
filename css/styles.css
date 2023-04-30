@@ -21,16 +21,13 @@
 }
 
 .border {
-  height: 369px;
-  width: 290px;
+  height: 250px;
+  width: 300px;
   background: transparent;
   border-radius: 10px;
   transition: border 1s;
   position: relative;
-}
-
-.border:hover {
-  border: 1px solid #fff;
+  border: 2px 
 }
 
 .card {
@@ -62,7 +59,7 @@
   background-size: 600px;
 }
 
-.card0:hover h2 {
+.card0:hover {
   opacity: 1;
 }
 
@@ -84,7 +81,7 @@
   background-size: 600px;
 }
 
-.card1:hover h2 {
+.card1:hover {
   opacity: 1;
 }
 
@@ -96,11 +93,12 @@
 
 h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fcf9f9;
+  color: #3c3434;
   margin: 20px;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 1s;
   text-shadow: #0f0f0f;
+  text-align:initial;
 }
 
 .map {
@@ -131,7 +129,7 @@ h1, p, body {
 }
 
 p {
-  font-family: "Dank Mono", ui-monospace, monospace;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 html {
