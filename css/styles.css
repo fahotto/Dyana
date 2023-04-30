@@ -20,8 +20,6 @@
   }
 }
 
-// get code to view 3d images ?
-
 .border {
   height: 369px;
   width: 290px;
@@ -151,17 +149,6 @@ h2 {
 
 /* TITLE */
 
-article {
-  background: linear-gradient(
-    to right, 
-    hsl(1, 83%, 49%), 
-    hsl(204, 92%, 38%)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-}
-
 h1 {
   font-size: 10vmin;
   line-height: 1.1;
@@ -214,8 +201,7 @@ html {
   padding-bottom: 30px;
   font-family: "Dank Mono", ui-monospace, monospace;
   font-size: 20px;
-  font-weight: bold;
-   
+  font-weight: bold;   
 }
 
 .asistencia {
