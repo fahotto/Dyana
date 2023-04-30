@@ -22,7 +22,7 @@
 
 // get code to view 3d images ?
 
-.border .map{
+.border {
   height: 369px;
   width: 290px;
   background: transparent;
@@ -117,10 +117,11 @@
 
 h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fff;
+  color: #fcf9f9;
   margin: 20px;
   opacity: 0;
   transition: opacity 1s;
+  text-shadow: #0f0f0f;
 }
 
 .fab {
@@ -131,7 +132,7 @@ h2 {
 .icons {
   position: absolute;
   fill: #fff;
-  color: #fff;
+  color: #454040;
   height: 130px;
   top: 226px;
   width: 50px;
@@ -142,6 +143,93 @@ h2 {
 }
 
 .map {
-  align-items: center
+  align-items: center;
   text-align: center;
-  border-radius: 10px;}
+  
+  height: 100px;
+}
+
+/* TITLE */
+
+article {
+  background: linear-gradient(
+    to right, 
+    hsl(1, 83%, 49%), 
+    hsl(204, 92%, 38%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+h1 {
+  font-size: 10vmin;
+  line-height: 1.1;
+}
+
+/*body {
+  background: hsl(204 100% 5%);
+  
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  font-family: system-ui;
+  font-size: min(200%, 5vmin);
+}
+*/
+
+/*.titulo {
+margin-top: 30px;
+text-shadow: red;
+} */
+
+.titulo {
+  margin-top: 30px;
+  color: #5419e9;
+  background: #ffffff;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  text-shadow: 0 +1px 4px #FFF, 0 +2px 10px #ff0, 0 +10px 20px #ff8000, 0 +18px 40px #F00;
+  color: #d602dd;
+  background: #ffffff;
+  }
+
+h1, p, body {
+  margin: 0;
+}
+
+p {
+  font-family: "Dank Mono", ui-monospace, monospace;
+}
+
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+.footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  font-family: "Dank Mono", ui-monospace, monospace;
+  font-size: 20px;
+  font-weight: bold;
+   
+}
+
+.asistencia {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  font-family: "Dank Mono", ui-monospace, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* .map {
+  height: 200px;
+  width: 300px;
+  align-items: center;
+  padding: 50px;
+}
